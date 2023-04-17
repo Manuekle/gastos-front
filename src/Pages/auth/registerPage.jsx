@@ -96,7 +96,7 @@ function registerPage() {
                 <hr className="w-44 h-[2px] border-black" />
               </div>
               <span className="w-[400px] relative">
-                <div>
+                <div className="relative">
                   <Field
                     className="outline-none relative w-full h-full py-3 pl-14 rounded-md bg-white text-black border border-black placeholder:text-black/50"
                     type="text"

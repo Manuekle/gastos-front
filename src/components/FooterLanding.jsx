@@ -5,7 +5,7 @@ function FooterLanding() {
   return (
     <div className="col-span-12 bg-black grid grid-cols-2 py-20 px-16">
       <article className="col-span-1 flex flex-col gap-12">
-        <h1 className="text-white font-normal text-5xl">
+        <h1 className="text-white font-normal text-4xl">
           Suscríbete para obtener consejos y tácticas para mejorar tu economía.
         </h1>
         <span className="flex items-center">
