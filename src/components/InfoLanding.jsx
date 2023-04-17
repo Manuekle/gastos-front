@@ -4,9 +4,8 @@ import businessman from '../assets/DrawIlustrations/happy-businessman.svg';
 import timeman from '../assets/DrawIlustrations/time-is-money.svg';
 import analysis from '../assets/DrawIlustrations/financial-analysis.svg';
 import calculation from '../assets/DrawIlustrations/financial-calculation.svg';
-import FooterLanding from './FooterLanding';
 
-function InfoLanding() {
+function infoLanding() {
   return (
     <div className="grid grid-cols-12">
       <article className="flex flex-col justify-center px-40 col-span-6 gap-12 border-2 border-black border-t-0 border-l-0 bg-[#F9D949]">
@@ -102,9 +101,8 @@ function InfoLanding() {
           finanzas de una manera más rápida y sencilla.
         </p>
       </article>
-      <FooterLanding />
     </div>
   );
 }
 
-export default InfoLanding;
+export default infoLanding;

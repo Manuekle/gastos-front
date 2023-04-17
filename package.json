@@ -1,6 +1,7 @@
 {
   "name": "gastos-front",
   "private": true,
+  "proxy": "http://127.0.0.1:8000",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -13,6 +14,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.0.8",
     "@radix-ui/react-alert-dialog": "^1.0.2",
     "@radix-ui/react-dialog": "^1.0.2",
     "@radix-ui/react-popover": "^1.0.2",
